@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Private Blog</title>
+    <style>
+        body { font-family: monospace; padding: 40px; background: #111; color: #fff; max-width: 600px; margin: 0 auto; }
+        h1 { color: #00ffcc; }
+        a { color: #00ffcc; }
+    </style>
+</head>
+<body>
+
+    <script>
+      // Change this to whatever password you want
+      const correctPassword = "MySecretPassword123"; 
+      
+      let userInput = prompt("This website is private. Please enter the password:");
+      
+      if (userInput !== correctPassword) {
+        alert("Incorrect password.");
+        window.location.href = "https://google.com"; 
+      }
+    </script>
+
+    <h1>Welcome to My Tiny Internet</h1>
+    <p>This is a completely free website hosted on GitHub Pages.</p>
+    <p>You can add links, write posts, and design this exactly how you like before ever buying a domain.</p>
+
+</body>
+</html>
